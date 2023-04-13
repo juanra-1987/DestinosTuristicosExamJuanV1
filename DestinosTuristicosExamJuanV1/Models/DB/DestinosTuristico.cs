@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DestinosTuristicosExamJuanV1.Models.DB;
+
+public partial class DestinosTuristico
+{
+    public int Id { get; set; }
+
+    public string? Nombre { get; set; }
+
+    public string? Foto { get; set; }
+
+    public string? Descripcion { get; set; }
+
+    public decimal Precio { get; set; }
+}
